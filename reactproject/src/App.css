@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #ffafbd, #ffc3a0);
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #222;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 60px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+
+.menu-btn {
+  background-color: #444;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+nav {
+  background-color: #444;
+  color: white;
+  display: none;
+  height: calc(100% - 60px);
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 200px;
+  overflow: auto;
+}
+
+nav.open {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.diver{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#dino1 {
+  width: 10%;
+  height: auto;
+  position: relative;
+  animation: move-image 10s linear infinite;
+}
+
+#animation {
+  margin-top: 100px;
+}
+
+.aesthetic-button {
+    background: linear-gradient(to bottom right, #f7a8b8, #ffecd2);
+    border: none;
+    color: black;
+    border-radius: 30px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .aesthetic-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+  }
+
+  .sectionlike{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+/* Define the animation */
+@keyframes move-image {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
