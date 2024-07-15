@@ -1,6 +1,6 @@
 # Orange Pi Web Server Project
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&text=Orange%20Pi%20Web%20Server&height=100&fontSize=40&fontColor=ffffff)
+![header](https://capsule-render.vercel.app/api?type=waving&color=FF6F61&text=Orange%20Pi%20Web%20Server&height=100&fontSize=40&fontColor=ffffff)
 
 ## Overview
 Welcome to the Orange Pi Web Server Project! This project involves setting up a robust web server using an Orange Pi. The server can host web applications and serve various types of content over the internet.
@@ -37,4 +37,4 @@ Feel free to reach out for any queries or collaboration opportunities:
 - **LinkedIn**: [Donghyun Kim](https://www.linkedin.com/in/kdh1999dev)
 
 
-![footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=7F7FD5)
+![footer](https://capsule-render.vercel.app/api?section=footer&type=waving&color=FF6F61)
